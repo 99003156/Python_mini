@@ -61,4 +61,5 @@ input_value = float(input("Input currency in JPY: "))
 JPY = currency(input_value)
 print(JPY.USD_TO_JPY(),"US DOLLARS")
 
+#string matching expression
 print(re.match("[A-Z a-z 0-9]+@+[a-z]+.+[a-z]","Pranavbhardhwaj98@gmail.com"))
